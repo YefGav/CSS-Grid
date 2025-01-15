@@ -5,14 +5,15 @@
 }
 
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 20px;
     background-color: white;
 }
 
 .container {
-    width: 1000px;
+    width: 1024px;
+    height: 1440px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 15px;
@@ -34,7 +35,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120px;
+    height: 200px;
+    width: 420px;
 }
 
 .title-card span {
@@ -45,18 +47,24 @@ img {
 
 .bears-group {
     grid-column: span 6;
-    height: 120px;
+    height: 200px;
+    width: 420px;
 }
 
 /* Segunda fila */
 .pink-bear, .green-bear {
     grid-column: span 2;
     height: 200px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 40px;
 }
 
 .logo-center {
     grid-column: span 6;
-    height: 250px;
+    height: 448px;
+    width: 335px;
+    margin-top: 40px;
 }
 
 .bear-stack {
@@ -66,14 +74,25 @@ img {
     gap: 15px;
 }
 
-.yellow-bear, .blue-bear {
+.yellow-bear {
     height: 200px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.blue-bear {
+    height: 200px;
+    width: 335px;
+    object-fit: cover;
 }
 
 /* Tercera fila */
 .rainbow-bears {
     grid-column: span 4;
-    height: 150px;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .love-section {
@@ -81,16 +100,24 @@ img {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 15px;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .blue-bear-single, .pink-bear-box {
     grid-column: span 2;
-    height: 150px;
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .love-all {
     grid-column: span 4;
-    height: 150px;
+    height: 200px;
+    width: 520px;
+    object-fit: cover;
+    margin-right: 67px;
 }
 
 /* Ajustes específicos para imágenes */
