@@ -27,7 +27,7 @@ No se requieren instalaciones especiales. Solo necesitas:
 
 1. Clona el repositorio:
 ```bash
-git clone [(https://github.com/YefGav/dog-lovers-grid)]
+git clone https://github.com/YefGav/dog-lovers-grid
 ```
 
 2. Navega al directorio del proyecto:
@@ -72,7 +72,7 @@ Las contribuciones son bienvenidas. Para contribuir:
 
 ## ✨ Autor
 
-[YefGav]
+YefGav
 
 ## 📱 Responsive Design
 
